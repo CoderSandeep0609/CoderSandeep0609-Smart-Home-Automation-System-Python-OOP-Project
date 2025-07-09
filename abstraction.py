@@ -17,11 +17,5 @@ class Device(ABC):
 
 
 
-class Notifier(ABC):
-    @abstractmethod
-    def notify(self,message):
-        pass
-
-
 
 
